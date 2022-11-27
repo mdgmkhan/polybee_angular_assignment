@@ -1,0 +1,93 @@
+<div class="grid">
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch1" (ngModelChange)="loadData1()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName1 }}</h1>
+      <p class="description">{{ weatherDescription1 }}</p>
+      <p class="temperature">{{ (weatherTemp1.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp1 - 273.15).toFixed(0)}}° L:{{(minTemp1 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch2" (ngModelChange)="loadData2()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName2 }}</h1>
+      <p class="description">{{ weatherDescription2 }}</p>
+      <p class="temperature">{{ (weatherTemp2.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp2 - 273.15).toFixed(0)}}° L:{{(minTemp2 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch3" (ngModelChange)="loadData3()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName3 }}</h1>
+      <p class="description">{{ weatherDescription3 }}</p>
+      <p class="temperature">{{ (weatherTemp3.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp3 - 273.15).toFixed(0)}}° L:{{(minTemp3 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch4" (ngModelChange)="loadData4()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName4 }}</h1>
+      <p class="description">{{ weatherDescription4 }}</p>
+      <p class="temperature">{{ (weatherTemp4.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp4 - 273.15).toFixed(0)}}° L:{{(minTemp4 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch5" (ngModelChange)="loadData5()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName5 }}</h1>
+      <p class="description">{{ weatherDescription5 }}</p>
+      <p class="temperature">{{ (weatherTemp5.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp5 - 273.15).toFixed(0)}}° L:{{(minTemp5 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch6" (ngModelChange)="loadData6()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName6 }}</h1>
+      <p class="description">{{ weatherDescription6 }}</p>
+      <p class="temperature">{{ (weatherTemp6.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp6 - 273.15).toFixed(0)}}° L:{{(minTemp6 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch7" (ngModelChange)="loadData7()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName7 }}</h1>
+      <p class="description">{{ weatherDescription7 }}</p>
+      <p class="temperature">{{ (weatherTemp7.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp7 - 273.15).toFixed(0)}}° L:{{(minTemp7 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch8" (ngModelChange)="loadData8()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName8 }}</h1>
+      <p class="description">{{ weatherDescription8 }}</p>
+      <p class="temperature">{{ (weatherTemp8.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp8 - 273.15).toFixed(0)}}° L:{{(minTemp8 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <input class="search-input" placeholder="Search cities" type="text" [(ngModel)]="citySearch9" (ngModelChange)="loadData9()" />
+  
+    <div class="inner-wrapper" *ngIf="!loading">
+      <h1 class="city">{{ weatherCityName9 }}</h1>
+      <p class="description">{{ weatherDescription9 }}</p>
+      <p class="temperature">{{ (weatherTemp9.temp - 273.15).toFixed(0) }}°</p>
+      <p class="max-min-temp">H:{{(maxTemp9 - 273.15).toFixed(0)}}° L:{{(minTemp9 - 273.15).toFixed(0)}}°</p>
+    </div>
+  </div>
+                  
+</div>
