@@ -5,6 +5,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName1 }}</h1>
       <p class="description">{{ weatherDescription1 }}</p>
+      <img [src]="getImage(weatherDescription1)" width="200" height="200"/> 
       <p class="temperature">{{ (weatherTemp1.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp1 - 273.15).toFixed(0)}}° L:{{(minTemp1 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -15,6 +16,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName2 }}</h1>
       <p class="description">{{ weatherDescription2 }}</p>
+      <img [src]="getImage(weatherDescription2)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp2.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp2 - 273.15).toFixed(0)}}° L:{{(minTemp2 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -25,6 +27,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName3 }}</h1>
       <p class="description">{{ weatherDescription3 }}</p>
+      <img [src]="getImage(weatherDescription3)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp3.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp3 - 273.15).toFixed(0)}}° L:{{(minTemp3 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -35,6 +38,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName4 }}</h1>
       <p class="description">{{ weatherDescription4 }}</p>
+      <img [src]="getImage(weatherDescription4)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp4.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp4 - 273.15).toFixed(0)}}° L:{{(minTemp4 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -45,6 +49,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName5 }}</h1>
       <p class="description">{{ weatherDescription5 }}</p>
+      <img [src]="getImage(weatherDescription5)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp5.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp5 - 273.15).toFixed(0)}}° L:{{(minTemp5 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -55,6 +60,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName6 }}</h1>
       <p class="description">{{ weatherDescription6 }}</p>
+      <img [src]="getImage(weatherDescription6)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp6.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp6 - 273.15).toFixed(0)}}° L:{{(minTemp6 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -65,6 +71,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName7 }}</h1>
       <p class="description">{{ weatherDescription7 }}</p>
+      <img [src]="getImage(weatherDescription7)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp7.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp7 - 273.15).toFixed(0)}}° L:{{(minTemp7 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -75,6 +82,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName8 }}</h1>
       <p class="description">{{ weatherDescription8 }}</p>
+      <img [src]="getImage(weatherDescription8)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp8.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp8 - 273.15).toFixed(0)}}° L:{{(minTemp8 - 273.15).toFixed(0)}}°</p>
     </div>
@@ -85,6 +93,7 @@
     <div class="inner-wrapper" *ngIf="!loading">
       <h1 class="city">{{ weatherCityName9 }}</h1>
       <p class="description">{{ weatherDescription9 }}</p>
+      <img [src]="getImage(weatherDescription9)" width="200" height="200"/>
       <p class="temperature">{{ (weatherTemp9.temp - 273.15).toFixed(0) }}°</p>
       <p class="max-min-temp">H:{{(maxTemp9 - 273.15).toFixed(0)}}° L:{{(minTemp9 - 273.15).toFixed(0)}}°</p>
     </div>
