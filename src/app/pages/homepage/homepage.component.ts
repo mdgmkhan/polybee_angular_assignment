@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 // import { API_DATA } from 'src/apidata';
 
-const API_URL = "http://api.openweathermap.org/data/2.5/"; //API_DATA.API_URL;
+const API_URL = "https://api.openweathermap.org/data/2.5/"; //API_DATA.API_URL;
 const API_KEY = "b533af408bcd025c5e308e44e85c55c9"; //API_DATA.API_KEY;
 @Component({
   selector: 'app-homepage',
@@ -327,5 +327,20 @@ export class HomepageComponent implements OnInit {
           this.loading = false;
         },
       });
+  }
+
+  getImage(weatherDesc : string) {
+    if(weatherDesc=='Clear')
+      return  './assets/images/Clear.jpg'
+    else if(weatherDesc=='Clouds')
+      return  './assets/images/Clouds.jpg'
+    else if(weatherDesc=='Haze')
+      return  './assets/images/Haze.jpg'
+    else if(weatherDesc=='Rain')
+      return  './assets/images/Rain.jpg'
+    else if(weatherDesc=='Smoke')
+      return  './assets/images/Smoke.jpg'
+    else
+      return  './assets/images/Default.jpg'
   }
 }
